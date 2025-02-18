@@ -1,5 +1,5 @@
 body{
-  background-color:#a8612e ;
+  background-color:#a8572e;
   color: black;
   text-align: left;
   font-family: Cedarville Cursive;
@@ -12,8 +12,41 @@ body{
   text-align:center;
   font-size:300%;
   color:black;
-  text-shadow: #a8392e 2px 2px
+  text-shadow: #a8392e 4px 4px
   }
 
 h2.heading{
   font-size: 200%;
+}
+
+.bordered{
+  border-style:color;
+   border-color: #d3dbec;
+  border-width:3px;
+  padding: 5px;
+  border-radius: 9px;
+   margin: 5px;
+  background-color:  #a8392e;
+  color: #ffff
+}
+
+a{
+  text-decoration: none;
+  font-weight: 700;
+  color: #8a8d8d
+}
+
+a:hover, a: visited {
+  color: #d1bec5
+}
+
+hr{
+  height: 2px;
+  border: 2px;
+  background-color: #d1bec5;
+}
+
+#footer{
+  font-size: 200%;
+  text-align: center; 
+}

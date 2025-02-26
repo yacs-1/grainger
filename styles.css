@@ -1,5 +1,5 @@
 body{
-  background-color:#fc8da2;
+  background-color:#556B2F;
   color: black;
   text-align: left;
   font-family: Cedarville Cursive;
@@ -12,7 +12,7 @@ body{
   text-align:center;
   font-size:300%;
   color:black;
-  text-shadow: #a8392e 4px 4px
+  text-shadow: #F5F5DC 4px 4px
   }
 
 h2.heading{
@@ -30,14 +30,22 @@ h2.heading{
   color: #ffff
 }
 
-a{
+a:link {
+  color: black;
+  background-color: transparent;
   text-decoration: none;
-  font-weight: 700;
-  color: #8a8d8d
 }
 
-a:hover, a: visited {
-  color: #d1bec5
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black ;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 hr{

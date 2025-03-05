@@ -7,6 +7,16 @@ body{
   margin-right: 10%
   
 }
+
+#bg{
+  width: 150vw;
+  height:100vh;
+  z-index: -999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
 .heading{
   font-family: ,Brush Script MT;
   text-align:center;

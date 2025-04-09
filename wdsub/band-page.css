@@ -1,5 +1,6 @@
 body{
   margin: 0px;
+  background-color:tan; 
 }
 
 #content, #album, #info{
@@ -7,18 +8,20 @@ body{
 }
 
 #content{
-  border: solid 2px red;
+  border: none;
   width: 50%;
+  background-color: tan;
  
 }
 #album{
-  border: solid 2px blue;
-  width: 30%;
+  border: none;
+  width: 29%;
+  background-color: tan;
 }
 
 #info{
-  border: solid 2px green;
-  max-width: 19%;
+  border:none;
+  max-width: 18%;
 }
 
 #player button{
@@ -35,4 +38,32 @@ body{
 #banner{
   width: 100vw;
   height:50vw;
+}
+
+#tracklist{
+  list-style-type: none; 
+}
+
+.track-li{
+  font-size: 150%;
+  font-style: italic;
+}
+
+  #player audio::-webkit-media-controls-pannel{
+    background-color: #fff;}
+  
+  #album-cover{
+    width:100%;
+  }
+
+#dog {
+  width: 100%;
+}
+
+#info img{
+  width: 100%;
+}
+
+a{
+  color: black
 }

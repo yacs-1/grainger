@@ -17,12 +17,11 @@ body{
   left: 0px;
 }
 
-.heading{
-  font-family: ,Brush Script MT;
+.header{
+  font-family: cursive;
   text-align:center;
   font-size:300%;
   color:black;
-  text-shadow: #F5F5DC 4px 4px
   }
 
 h2.heading{
@@ -67,4 +66,36 @@ hr{
 #footer{
   font-size: 200%;
   text-align: center; 
+}
+
+#nav-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none; 
+  position:relative;
+  background-color:beige; 
+}
+
+#nav-list > li{
+  flex-grow: 1;
+  display: inline-block;
+  width: 15%;
+}
+
+
+#nav-list ul {
+  display: none;
+  background-color: white;
+}
+
+#nav-list li:hover ul{
+  display: block;
+  
+  
+} 
+
+#nav-list li ul {
+  list-style-type: none;
+  padding: 0px; 
+  position: absolute;
 }
